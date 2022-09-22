@@ -1,0 +1,51 @@
+body {
+  padding-top: 100px
+}
+
+.blanco {
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/216/505/114/st-patrick-s-day-wallpaper-preview.jpg);
+  position: fixed;
+  margin: -110px;
+  width: 1250px;
+  height: 85px;
+  color: #FDFEFE;
+  font-size: 4em;
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  text-align: center;
+  outline: 2px solid #005E0C;
+}
+
+.bandera {
+  margin-left: 280px;
+  width: 450px;
+  height: 300px;
+  transition: all 2s;
+  box-shadow: 0px 0px 20px 0 #000;
+}
+
+.plato1 {
+  text-decoration: underline;
+  color: #006600;
+  font-size: 2em;
+}
+
+.plato2 {
+  margin-top: 250px;
+  margin-left: 280px;
+  text-decoration: underline;
+  color: #006600;
+  font-size: 2em;
+}
+
+
+.foto {
+  width: 400px;
+  height: 250px;
+}
+
+.video {
+  margin-left: 220px;
+  width: 450px;
+  height: 300px;
+}

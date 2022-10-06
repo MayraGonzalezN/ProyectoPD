@@ -1,0 +1,203 @@
+@import url ('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EBFFE5;
+}
+
+header {
+  background-color: #121212;
+  position: fixed;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0px 3%;
+  width: 100%;
+}
+
+.img-irlanda {
+  width: 350px;
+}
+
+.header .links {
+  list-style: none;
+}
+
+.header .links li {
+  display: inline-block;
+  padding: 0 8px 0 8px;
+}
+
+.header .links li:hover {
+  transform: scale(1.1);
+}
+
+.header .links a {
+  box-shadow: 10px 5px 5px #1c1b1b;
+  font-size: 17px;
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.header .links li a:hover {
+  color: #ffa354;
+}
+
+.img-grande {
+  width: 100%;
+  height: 100%;
+}
+
+.parte1 {
+  margin-top: 50px;
+  display: flex;
+  padding: 25px;
+  color: #161616;
+}
+
+.parte1 img {
+  width: 65%;
+  height: 60%;
+}
+
+.descripción1 h1 {
+  margin-top: 35px;
+  padding-left: 30px;
+  font-style: oblique;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #00330;
+}
+
+.descripción1 p {
+  padding-left: 30px;
+  font-size: 16px;
+  font-display: swap;
+  font-family: sans-serif;
+  color: #444;
+  font-stretch: expanded;
+  font-variant-caps: titling-caps;
+  font-weight: lighter;
+  margin-right: 50px;
+}
+
+p .leer-más {
+  font-size: 16px;
+  font-display: swap;
+  font-family: sans-serif;
+  color: #20c120;
+  font-stretch: expanded;
+  font-variant-caps: titling-caps;
+  font-weight: lighter;
+}
+
+.parte2 {
+  margin-top: 20px;
+  display: flex;
+  padding: 6.5px;
+  color: #161616;
+}
+
+.parte2 img {
+  width: 48%;
+  height: 32%;
+  padding-left: 22px;
+}
+
+.parte3 {
+  margin-top: .5px;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  color: #161616;
+}
+
+.parte3 .h2 {
+  padding-left: 4px;
+  font-style: oblique;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #00330;
+}
+
+.parte3 p {
+  padding-left: 3px;
+  font-size: 16px;
+  font-display: swap;
+  font-family: sans-serif;
+  color: #444;
+  font-stretch: expanded;
+  font-variant-caps: titling-caps;
+  font-weight: lighter;
+  margin-right: 50px;
+}
+
+.img-wp {
+  width: 65px;
+  height: 65px;
+  bottom: 30px;
+  right: 0;
+  position: fixed;
+  transition: all 0.3s;
+}
+
+.img-wp:hover {
+  height: 70px;
+  width: 70px;
+}
+
+.footer {
+  background-color: #f24c00;
+}
+
+.footer .grupo1 {
+  max-width: 1200px;
+  padding: 65px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 5%;
+}
+
+.footer .grupo1 a {
+  color: #fff;
+}
+
+.footer .grupo1 .box h2 {
+  color: #fff;
+  font-size: 19px;
+  margin-bottom: 19px;
+  font-family: serif;
+}
+
+.footer .grupo1 .box .maps {
+  width: 85%;
+  height: 100%
+}
+
+.footer .grupo1 .box p {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-family: serif;
+  margin-right: 30px;
+}
+
+.redes img {
+  width: 15%;
+  margin-left: 5px;
+  margin-right: 5px;
+  -webkit-transition: all 2s ease;
+  -moz- transition: all 2s ease;
+  -o- transition: all 2s ease;
+}
+
+.redes img:hover {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}

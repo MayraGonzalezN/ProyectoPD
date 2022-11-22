@@ -2,7 +2,12 @@
 
  @media (min-width:769px) {
    body {
-     background-color: #0010331c;
+     background-color: #8ead9642;
+   }
+   @font-face {
+    font-family: "abeja";
+    src: url("../fonts/regular.ttf")
+    format("truetype");
    }
  }
 
@@ -18,10 +23,12 @@
    flex-wrap: wrap;
    justify-content: space-between;
    align-items: center;
+   border: solid 0.1em rgba(255, 255, 255, 0);
+   border-bottom-color:#025a029c ;
  }
 
  .logo {
-   width: 49%;
+   width: 49vw;
  }
 
  .logo img {
@@ -31,13 +38,13 @@
 
  .redes {
    display: flex;
-   width: 30%;
-   justify-content: space-evenly;
+   width: 30vw;
+   justify-content:space-evenly;
    align-items: center;
  }
 
  .redes div {
-   width: 100%;
+   width: 100vw;
    text-align: center;
  }
 
@@ -51,9 +58,9 @@
  }
 
  .redes img:hover {
-   height: 50px;
-   width: 50px;
-   margin-left: 10px;
+   height: 100%;
+   width: 100%;
+   margin-left: 10%;
  }
 nav{
   display: flex;
@@ -75,7 +82,8 @@ nav{
  }
 
  nav .links a {
-   font-size: 17px;
+  font-family: "abeja";
+   font-size: 1.2em;
    color: #3cbe00b4;
    text-decoration: none;
    text-shadow: 0 0 black;
@@ -90,40 +98,40 @@ nav{
 }
 
  .parte1 {
-   margin-top: 50px;
+   margin-top: 5vw;
    display: flex;
-   padding: 25px;
+   padding: 2vw;
    color: #161616;
  }
 
  .parte1 img {
-   width: 65%;
-   height: 60%;
+   width: 65vw;
+   height: 60vh;
  }
 
  .descripción1 h1 {
-   margin-top: 35px;
-   padding-left: 30px;
+   margin-top: 1vw;
+   padding-left: 2vw;
    font-style: oblique;
-   font-size: 30px;
+   font-size: 1.9em;
    font-weight: bolder;
-   color: #00330;
+   color: #161616;
  }
 
  .descripción1 p {
-   padding-left: 30px;
-   font-size: 16px;
+   padding-left: 2vw;
+   font-size: 1em;
    font-display: swap;
-   font-family: sans-serif;
+   font-family:sans-serif ;
    color: #444;
    font-stretch: expanded;
    font-variant-caps: titling-caps;
    font-weight: lighter;
-   margin-right: 50px;
+   margin-right: 5vw;
  }
 
  p .leer-más {
-   font-size: 16px;
+   font-size: 1em;
    font-display: swap;
    font-family: sans-serif;
    color: #20c120;
@@ -146,25 +154,24 @@ nav{
  }
 
  .parte3 {
-   margin-top: .5px;
+   margin-top: 1vh;
    display: flex;
-   padding-left: 25px;
-   padding-right: 25px;
-   padding-top: 25px;
+   justify-content: space-between;
    color: #161616;
  }
 
- .parte3 .h2 {
-   padding-left: 4px;
+ .parte3 .h2 { 
    font-style: oblique;
-   font-size: 24px;
+   font-size: 1.5em;
    font-weight: bolder;
-   color: #00330;
+   color: #161616;
+   display: flex;
+   justify-content: center;
  }
 
  .parte3 p {
-   padding-left: 3px;
-   font-size: 16px;
+   padding-left: 2vw;
+   font-size: 1em;
    font-display: swap;
    font-family: sans-serif;
    color: #444;
@@ -175,17 +182,15 @@ nav{
  }
 
  .img-wp {
-   width: 65px;
-   height: 65px;
-   bottom: 30px;
+   width: 5vw;
+   bottom: 10px;
    right: 0;
    position: fixed;
    transition: all 0.3s;
  }
 
  .img-wp:hover {
-   height: 70px;
-   width: 70px;
+   width: 6vw;
  }
 
  footer {
@@ -198,7 +203,7 @@ nav{
    align-items: center;
  }
  footer box{
-  width: 30%;
+  width: 30vw;
   display: flex;
   justify-content: space-around;
  }
@@ -208,35 +213,34 @@ footer a {
 }
  h2 {
   color: #fff;
-  font-size: 100%;
+  font-size: 1em%;
   font-family: serif;
-  margin-bottom: 5%;
+  margin-bottom: 2vw;
+  display: flex;
+  justify-content: space-evenly;
 }
  .maps {
-  width: 85%;
-  height: 100%
+  width: 25vw;
+  height: 35vh;
 }
  footer .box p {
    color: #fff;
-   margin-bottom: 5%;
-   font-size: 90%;
+   margin-bottom: 2vw;
+   font-size: 0.9em;
    font-family: serif;
-   margin-right: 30px;
+   margin-right: 1vh;
+   display: flex;
+   justify-content: space-evenly;
  } 
-
-
  div .redes img {
-  width: 65%;
+  width:4vw;
 }
-
 .redes {
   -moz- transition: all 2s ease;
   -o- transition: all 2s ease;
 }
 
 div .redes img:hover {
-  height: 50px;
-  width: 50px;
-  margin-left: 10px;
+  width: 5vw;
 }
  

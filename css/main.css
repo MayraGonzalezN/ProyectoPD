@@ -6,6 +6,16 @@
   }
 
   @font-face {
+    font-family: "dog";
+    src: url(../fonts/Hola-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: "dog2";
+    src: url(../fonts/NerkoOne-Regular.ttf);
+  }
+
+  @font-face {
     font-family: "abeja";
     src: url("../fonts/regular.ttf") format("truetype");
   }
@@ -18,16 +28,51 @@
 
   body {
     background-color: #0a0a0ad7;
-    background-image: url(../imagen/fondo.jpg);
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: scroll;
 
   }
-
+ .dark{
+  background-color: #fff;
+  color: #494949;
+  transition: all 2s ease;
+ }
+ .dark header{
+  background-color: rgb(255, 136, 0);
+  color: #2b2a2a;
+ }
+ .dark nav{
+  background-color:rgb(240, 149, 45);
+  color: #2b2a2a;
+ }
+ .dark .nav a{
+  background-color: rgb(240, 149, 45);
+ }
+.dark .nav-itemnav-link  {
+  color: #1a1a1a;
+}
+.dark .nav-itemnav-link:hover {
+  color: #047000f6;
+}
+ .dark footer{
+  background-color: rgb(255, 136, 0);
+  color: #494949;
+ }
+ .dark .contenido{
+background-color: rgb(240, 240, 64);
+ }
+ .dark.row .card {
+  background-color: #525151;
+  opacity: 75%;
+  transition: all 0.80s;
+}
+.dark section .video{
+  background-color: rgb(240, 240, 64);
+}
   header {
     display: flex;
-    background-color: #000000;
+    background-color: #1a1a1a;
     padding: 1vw;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -35,13 +80,13 @@
   }
 
   .logo {
-    width: 20vw;
+    width: 45%;
     margin: auto;
   }
 
   .redes {
     display: flex;
-    width: 18vw;
+    width: 20%;
     justify-content: space-evenly;
     align-items: center;
   }
@@ -56,8 +101,8 @@
   }
 
   .redes {
-    -moz- transition: all 2s ease;
-    -o- transition: all 2s ease;
+    transition: all 2s ease;
+    transition: all 2s ease;
   }
 
   .redes img:hover {
@@ -65,31 +110,37 @@
     width: 100%;
     margin-left: 10%;
   }
-
+ 
   nav {
-    background-color: #000000;
+    background-color: #242323;
+    display: flex;
+    padding: 1vw;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     border: solid 0.1em #fff;
-    height: 5.2vw;
   }
 
   .m-4 {
-    background-color: rgb(0, 0, 0);
+    background-color: #242323;
+    margin: 1rem !important;
+    ;
   }
 
   .nav {
-    background-color: rgb(0, 0, 0);
-    height:1vh;
+    background-color: #242323;
     border: 0;
     margin-top: -2vw;
     margin-left: -1vw;
   }
-.nav a{
-  background-color: rgb(0, 0, 0);
-  border-radius: 0;
+  .nav a {
+    background-color: #242323;
+    border-radius: 0;
     border-style: groove;
     border: 0.1em;
-    border-right-style:ridge;
-}
+    border-right-style: ridge;
+  }
+
   .nav-itemnav-link {
     padding: 0.5vw;
     font-family: "cat";
@@ -98,9 +149,40 @@
     text-decoration: none;
     border-radius: 2em;
   }
+
   .nav-itemnav-link:hover {
-    color: #f37006f6;
+    color: #da6200f6;
   }
+  #toggle{
+    display: none;
+  }
+#label_toggle{
+  position: relative;
+  cursor: pointer;
+}
+#ojo{
+  width: 70px;
+  height: 70px;
+}
+  .switch.active {
+    background: rgb(22, 136, 243);
+    color: #000;
+  }
+
+  .switch .active::after {
+    right: 0;
+    left: unset;
+  }
+
+  span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #fff;
+  } */
+
   .contenido {
     margin: 2vw;
     padding: 2vw;
@@ -148,17 +230,19 @@
   .btnbtn-primary:hover {
     color: #f5f5f4ee;
   }
-  .carousel-inner h5{
+
+  .carousel-inner h5 {
     font-family: "cat";
     font-size: 1.5rem;
     color: rgb(240, 240, 240);
     text-decoration: overline;
   }
-  .carousel-inner p{
+
+  .carousel-inner p {
     font-family: "cat";
     font-size: 1rem;
     color: rgb(240, 240, 240);
-    text-decoration:wavy;
+    text-decoration: wavy;
   }
 
   section .video {
@@ -186,63 +270,6 @@
     opacity: 100%;
   }
 
-  footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: #000000;
-    padding: 1%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  footer box {
-    width: 30vw;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  footer a {
-    color: #fff;
-  }
-
-  h3 {
-    color: #fff;
-    font-size: .9em;
-    font-family: "abeja";
-    margin-bottom: 2vw;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .maps {
-    width: 25vw;
-    height: 35vh;
-  }
-
-  footer .box p {
-    display: flex;
-    justify-content: space-evenly;
-    color: #fff;
-    margin-bottom: 2vw;
-    font-size: 0.9rem;
-    font-family: serif;
-    margin-right: 1vh;
-  }
-
-  div .redes img {
-    width: 4vw;
-  }
-
-  .redes {
-    -moz- transition: all 1s ease;
-    -o- transition: all 1s ease;
-  }
-
-  div .redes img:hover {
-    width: 5vw;
-  }
-
   .img-wp {
     width: 6vw;
     bottom: 11px;
@@ -254,7 +281,88 @@
   .img-wp:hover {
     width: 7vw;
   }
- /* medida de celular */
+
+  footer {
+    display: flex;
+    background-color: #1a1a1a;
+    padding: 1vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ma {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+  }
+
+  .maps {
+    width: 80%;
+    height: 58%;
+  }
+
+  .re {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+  }
+
+  .redes1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+  }
+
+  .redes1 div {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .redes1 div img {
+    width: 85%;
+  }
+
+  div .redes1 img {
+    width: 4vw;
+  }
+
+  div .redes1 img {
+    transition: all 1s ease;
+    transition: all 1s ease;
+  }
+
+  div .redes1 img:hover {
+    width: 5vw;
+  }
+
+  .co {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .copy {
+    background-image: url(../imagen/abstracto.jpg);
+    border-radius: 43%;
+    border-color: #fff;
+  }
+
+  .copy {
+    font-family: "dog2";
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 105px;
+  }
+
+  .copy:hover {
+    height: 45px;
+  }
+
+  /* medida de celular */
   @media (max-width:575px) {
     .video .videoEdit {
       display: none;
@@ -272,27 +380,29 @@
       width: 10vw;
       bottom: 15px;
     }
-    .logo{
+
+    .logo {
       width: 42vw;
     }
-    .redes{
+
+    .redes {
       width: 35vw;
     }
-  }
 
-  /* medida de tamblet */
-  @media (min-width:768px) and (max-width:991px) {
-    .parte1 .plato {
-      display: none;
-    }
-    .divisor {
-      background-image: linear-gradient(to bottom, rgb(2, 128, 2), rgb(1, 73, 1), rgb(1, 39, 1));
-    }
-  }
+    /* medida de tamblet */
+    @media (min-width:768px) and (max-width:991px) {
+      .parte1 .plato {
+        display: none;
+      }
 
-  /* medida pantalla de escritorio*/
-  @media (min-width:992px) and (max-width:1199px) {
-    .parte1 .plato {
-      display: none;
+      .divisor {
+        background-image: linear-gradient(to bottom, rgb(2, 128, 2), rgb(1, 73, 1), rgb(1, 39, 1));
+      }
     }
-  }
+
+    /* medida pantalla de escritorio*/
+    @media (min-width:992px) and (max-width:1199px) {
+      .parte1 .plato {
+        display: none;
+      }
+    }
